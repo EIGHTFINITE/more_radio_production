@@ -1,14 +1,8 @@
-﻿pmg_telephones_category = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_telephones
-	}
-}
-
-pmg_radios_category = {
+﻿pmg_radios_category = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
 		pm_no_radios
 		pm_radios
+		pm_more_radios
 	}
 }

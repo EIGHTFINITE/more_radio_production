@@ -1,41 +1,17 @@
-﻿pm_telephones = {
-	texture = "gfx/interface/icons/production_method_icons/telephones.dds"
-	building_modifiers = {
-		workforce_scaled = {
-			building_input_iron_add = 20
-			building_input_rubber_add = 20
-			building_input_lead_add = 20
-			building_input_tools_add = 10
-			
-			building_output_telephones_add = 60
-		}
-
-		level_scaled = {
-			building_employment_laborers_add = 1500
-			building_employment_machinists_add = 2000
-			building_employment_engineers_add = 1000
-		}
-	}
-}
-
-pm_no_radios = {
-	texture = "gfx/interface/icons/production_method_icons/no_radios.dds"
-}
-
-pm_radios = {
-	texture = "gfx/interface/icons/production_method_icons/radios.dds"
+﻿pm_more_radios = {
+	texture = "gfx/interface/icons/production_method_icons/radio_stations.dds"
 	unlocking_technologies = {
 		radio
 	}	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_electricity_add = 50
-			building_output_telephones_add = -20
-			building_output_radios_add = 40
+			building_input_electricity_add = 100
+			building_output_telephones_add = -40
+			building_output_radios_add = 60
 		}
 		
 		level_scaled = {
-			building_employment_engineers_add = 500
+			building_employment_engineers_add = 1000
 		}
 	}
 }
