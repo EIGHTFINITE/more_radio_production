@@ -1,5 +1,5 @@
 ﻿pm_more_radios = {
-	texture = "gfx/interface/icons/production_method_icons/radio_stations.dds"
+	texture = "gfx/interface/icons/production_method_icons/unused/radio_stations.dds"
 	unlocking_technologies = {
 		radio
 	}	
