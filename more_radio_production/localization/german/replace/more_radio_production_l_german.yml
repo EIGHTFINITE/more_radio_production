@@ -1,2 +1,3 @@
 ﻿l_german:
  pm_more_radios:0 "$radio_production_modifier$"
+ pm_more_radios_2:0 "$pm_military_priority$"

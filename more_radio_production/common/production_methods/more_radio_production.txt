@@ -15,3 +15,21 @@
 		}
 	}
 }
+
+pm_more_radios_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/no_telephones.dds"
+	unlocking_technologies = {
+		radio
+	}	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_electricity_add = 150
+			building_output_telephones_add = -60
+			building_output_radios_add = 80
+		}
+		
+		level_scaled = {
+			building_employment_engineers_add = 1500
+		}
+	}
+}
